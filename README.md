@@ -1,16 +1,28 @@
-### Hi there 👋
+### Ello gov'nor!
 
-<!--
-**alaanvv/alaanvv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎃 Alan Vale <br>
+🎈 15y <br>
+❤ Desenvolverdor front-end e game-dev <br>
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+##
+<br>
+<div>
+  <a href="https://github.com/alaanvv">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/?username=alaanvv&show_icons=true&theme=nord&include_all_comits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alaanvv&layout=compact&langs-count=16&theme=nord"/>
+</div>
+  
+##
+  
+<div style="display: inline-block"><br>
+  <img align="center" width="40" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+  <img align="center" width="40" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+  <img align="center" width="40" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+  <img align="center" width="40" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+</div>
+  
+##
+  
+<div>
+  <a href="https://youtube/alaanvv" target="_blank"> Youtube </a> | <a href="https://instagram.com/alaan_vv"> Instagram <a>
+</div>  
