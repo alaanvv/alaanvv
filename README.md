@@ -2,7 +2,7 @@
 
 🎃 Alan Vale <br>
 🎈 15y <br>
-❤ Desenvolvedor front-end e game-dev <br>
+❤ Desenvolvedor front-end e pythonzero <br>
 
 ##
 <br>
