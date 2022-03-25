@@ -3,15 +3,8 @@
 🎃 Alan Vale <br>
 🎈 16y <br>
 ❤ Desenvolvedor front-end e pythonzero <br>
+🤵 Casado (4 filhos lindos)
 
-##
-<br>
-<div>
-  <a href="https://github.com/alaanvv">
-  <img height="180em" width="49%" src="https://github-readme-stats.vercel.app/api/?username=alaanvv&show_icons=true&theme=nord&include_all_comits=true&count_private=true"/>
-  <img height="180em" width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alaanvv&layout=compact&langs-count=16&theme=nord"/>
-</div>
-  
 ##
   
 <div style="display: inline-block"><br>
@@ -22,7 +15,7 @@
 </div>
   
 ##
-  
+
 <div>
   <a href="https://youtube/alaanvv" target="_blank"> Youtube </a> | <a href="https://instagram.com/alaan_vv"> Instagram <a>
 </div>  
