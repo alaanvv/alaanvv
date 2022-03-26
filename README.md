@@ -7,7 +7,7 @@
 
 ##
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alaanvv&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alaanvv&theme=swift)
 
 ##
   
