@@ -6,6 +6,10 @@
 🤵 Casado (4 filhos lindos)
 
 ##
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alaanvv&theme=tokyonight)
+
+##
   
 <div style="display: inline-block"><br>
   <img align="center" width="40" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
