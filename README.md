@@ -1,4 +1,4 @@
-<img src="https://c.tenor.com/O_zl_sZ9u-cAAAAC/over-the-garden-wall-garden-wall.gif" margin-left="30px">
+<img src="https://c.tenor.com/O_zl_sZ9u-cAAAAC/over-the-garden-wall-garden-wall.gif" align="center">
 
 ### Ello gov'nor!
 
