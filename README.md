@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://c.tenor.com/O_zl_sZ9u-cAAAAC/over-the-garden-wall-garden-wall.gif" />
+  <img width="1000" src="https://c.tenor.com/O_zl_sZ9u-cAAAAC/over-the-garden-wall-garden-wall.gif" />
 </p>
 
 <div align="center">
