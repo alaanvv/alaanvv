@@ -12,10 +12,12 @@
  
 #### 🎃 Alan Vale <br>
 #### 🎈 16y <br>
-#### ⛄️ Gosto de criar <br>
+#### ⛄️ Programador foda <br>
+#### ⠀⠀Gosto de matemática e física <br>
 
+#### 🍎
 ##
-  
+
 <div style="display: inline-block" align="center"><br>
   <img align="center" width="40" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /> --
   <img align="center" width="40" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /> --
