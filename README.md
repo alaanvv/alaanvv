@@ -12,10 +12,6 @@
  
 #### 🎃 Alan Vale <br>
 #### 🎈 16y <br>
-#### ⛄️ Programador foda <br>
-#### ⠀⠀Gosto de matemática e física <br>
-
-#### 🍎
 ##
 
 <div style="display: inline-block" align="center"><br>
