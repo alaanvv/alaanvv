@@ -22,5 +22,5 @@
 ##
 
 <div align="center">
-  <a href="https://youtube/alaanvv" target="_blank"> Youtube </a> | <a href="https://instagram.com/alaan_vv" target="_blank"> Instagram <a>
+  <a href="https://youtube.com/@alaanvv" target="_blank"> Youtube </a> | <a href="https://instagram.com/alaan_vv" target="_blank"> Instagram <a>
 </div>  
