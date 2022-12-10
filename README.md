@@ -1,11 +1,8 @@
-<p align="center">
-  <img width="50%" src="osnfpgr.gif" />
-</p>
 
 <div align="center">
-  
-### Vocês acabaram de invocar... O DEUS DA PROGRAMAÇÃO!
-  
+  <img width="80%" src="osnfpgr.gif" />
+
+  ## Vocês acabaram de invocar... O DEUS DA PROGRAMAÇÃO!
 </div>
 
 ---
