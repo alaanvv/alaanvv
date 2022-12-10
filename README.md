@@ -1,6 +1,6 @@
 <div align="center">
   
-  <a href="https://app.picpay.com/user/alaanvv"> <img width="80%" src="osnfpgr.gif"> </a>
+  <a href="https://app.picpay.com/user/alaanvv"> <img width="80%" src="deus-da-programacao.gif"> </a>
   
   ## Vocês acabaram de invocar... O DEUS DA PROGRAMAÇÃO!
   
