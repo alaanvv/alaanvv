@@ -12,13 +12,13 @@
   <img src="https://img.shields.io/badge/html-%23323330?style=for-the-badge&logo=html5&logoColor=white">
   <img src="https://img.shields.io/badge/css-%23323330?style=for-the-badge&logo=css3&logoColor=white">
   <img src="https://img.shields.io/badge/javascript-%23323330?style=for-the-badge&logo=javascript&logoColor=white">
+  <img src="https://img.shields.io/badge/react-%23323330?style=for-the-badge&logo=react&logoColor=white">
   
   <br>
   
   <img src="https://img.shields.io/badge/python-%23323330?style=for-the-badge&logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/mysql-%23323330?style=for-the-badge&logo=mysql&logoColor=white">
   <img src="https://img.shields.io/badge/sqlite-%23323330?style=for-the-badge&logo=sqlite&logoColor=white">
-  <img src="https://img.shields.io/badge/react-%23323330?style=for-the-badge&logo=react&logoColor=white">
   <img src="https://img.shields.io/badge/Node.js-%23323330?style=for-the-badge&logo=nodedotjs&logoColor=white">
   <img src="https://img.shields.io/badge/Java-%23323330?style=for-the-badge&logoColor=white">
   <img src="https://img.shields.io/badge/VSCode-%23323330?style=for-the-badge&logo=visualstudiocode&logoColor=white">
