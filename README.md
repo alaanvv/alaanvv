@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="osnf.gif" />
+  <img width="50%" src="osnf.gif" />
 </p>
 
 <div align="center">
