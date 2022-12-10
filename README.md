@@ -20,6 +20,7 @@
   <img src="https://img.shields.io/badge/sqlite-%23323330?style=for-the-badge&logo=sqlite&logoColor=white">
   <img src="https://img.shields.io/badge/react-%23323330?style=for-the-badge&logo=react&logoColor=white">
   <img src="https://img.shields.io/badge/Node.js-%23323330?style=for-the-badge&logo=nodedotjs&logoColor=white">
+  <img src="https://img.shields.io/badge/Java-%23323330?style=for-the-badge&logoColor=white">
   <img src="https://img.shields.io/badge/VSCode-%23323330?style=for-the-badge&logo=visualstudiocode&logoColor=white">
  
   <br>
