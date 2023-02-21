@@ -20,5 +20,11 @@
   [![gmail](https://img.shields.io/badge/Gmail-%23323330?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alanzerababaca@gmail.com")
   [![youtube](https://img.shields.io/badge/YouTube-%23323330?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@alaanvv)
   [![picpay](https://img.shields.io/badge/picpay-%23323330?style=for-the-badge&logo=picpay&logoColor=white)](https://app.picpay.com/user/alaanvv)
+  ![discord](https://img.shields.io/badge/alaanvv_5148-%23323330?style=for-the-badge&logo=discord&logoColor=white)
+
+  <hr>
 
 </div>
+ 
+ - Currently training my front-end capacities
+ - If you need help with something that I know, fell free to text me
