@@ -3,7 +3,7 @@
   [<img width="80%" src="deus-da-programacao.gif">](https://app.picpay.com/user/alaanvv)  
   ## Vocês acabaram de invocar... O DEUS DA PROGRAMAÇÃO!
   
-  ### Rituals
+  ### Knowledge
   ![html5](https://img.shields.io/badge/html-%23323330?style=for-the-badge&logo=html5&logoColor=white)
   ![markdown](https://img.shields.io/badge/md-%23323330?style=for-the-badge&logo=markdown&logoColor=white)
   ![css3](https://img.shields.io/badge/css-%23323330?style=for-the-badge&logo=css3&logoColor=white)
