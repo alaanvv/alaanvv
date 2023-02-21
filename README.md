@@ -1,7 +1,6 @@
 <div align="center">
   
-  <a href="https://app.picpay.com/user/alaanvv"> <img width="80%" src="deus-da-programacao.gif"> </a>
-  
+  [<img width="80%" src="deus-da-programacao.gif">](https://app.picpay.com/user/alaanvv)  
   ## Vocês acabaram de invocar... O DEUS DA PROGRAMAÇÃO!
   
 </div>
@@ -9,33 +8,21 @@
 <div align="center">
   
   ### Rituals
-  <img src="https://img.shields.io/badge/html-%23323330?style=for-the-badge&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/markdown-%23323330?style=for-the-badge&logo=markdown&logoColor=white">
-  <img src="https://img.shields.io/badge/css-%23323330?style=for-the-badge&logo=css3&logoColor=white">
-  <img src="https://img.shields.io/badge/javascript-%23323330?style=for-the-badge&logo=javascript&logoColor=white">
-  <img src="https://img.shields.io/badge/react-%23323330?style=for-the-badge&logo=react&logoColor=white">
-  
-  <br>
-  
-  <img src="https://img.shields.io/badge/python-%23323330?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/mysql-%23323330?style=for-the-badge&logo=mysql&logoColor=white">
-  <img src="https://img.shields.io/badge/sqlite-%23323330?style=for-the-badge&logo=sqlite&logoColor=white">
-  <img src="https://img.shields.io/badge/Node.js-%23323330?style=for-the-badge&logo=nodedotjs&logoColor=white">
-  <img src="https://img.shields.io/badge/Java-%23323330?style=for-the-badge&logoColor=white">
-  <img src="https://img.shields.io/badge/VSCode-%23323330?style=for-the-badge&logo=visualstudiocode&logoColor=white">
- 
-  <br>
-  
-  <a href="mailto:alanzerababaca@gmail.com"> 
-  <img src="https://img.shields.io/badge/Gmail-%23323330?style=for-the-badge&logo=gmail&logoColor=white">
-  </a>
+  ![html5](https://img.shields.io/badge/html-%23323330?style=for-the-badge&logo=html5&logoColor=white)
+  ![markdown](https://img.shields.io/badge/md-%23323330?style=for-the-badge&logo=markdown&logoColor=white)
+  ![css3](https://img.shields.io/badge/css-%23323330?style=for-the-badge&logo=css3&logoColor=white)
+  ![javascript](https://img.shields.io/badge/js-%23323330?style=for-the-badge&logo=javascript&logoColor=white)
+  ![react](https://img.shields.io/badge/react-%23323330?style=for-the-badge&logo=react&logoColor=white)
 
-  <a href="https://youtube.com/@alaanvv">
-  <img src="https://img.shields.io/badge/YouTube-%23323330?style=for-the-badge&logo=youtube&logoColor=white">
-  <a>
+  ![python](https://img.shields.io/badge/python-%23323330?style=for-the-badge&logo=python&logoColor=white)
+  ![mysql](https://img.shields.io/badge/mysql-%23323330?style=for-the-badge&logo=mysql&logoColor=white)
+  ![sqlite](https://img.shields.io/badge/sqlite-%23323330?style=for-the-badge&logo=sqlite&logoColor=white)
+  ![nodedotjs](https://img.shields.io/badge/Node.js-%23323330?style=for-the-badge&logo=nodedotjs&logoColor=white)
+  ![java](https://img.shields.io/badge/Java-%23323330?style=for-the-badge&logoColor=white)
+  ![visualstudiocode](https://img.shields.io/badge/VSCode-%23323330?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
-  <a href="https://app.picpay.com/user/alaanvv">
-  <img src="https://img.shields.io/badge/picpay-%23323330?style=for-the-badge&logo=picpay&logoColor=white">
-  </a>
+  [![gmail](https://img.shields.io/badge/Gmail-%23323330?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alanzerababaca@gmail.com")
+  [![youtube](https://img.shields.io/badge/YouTube-%23323330?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@alaanvv)
+  [![picpay](https://img.shields.io/badge/picpay-%23323330?style=for-the-badge&logo=picpay&logoColor=white)](https://app.picpay.com/user/alaanvv)
 
 </div>
