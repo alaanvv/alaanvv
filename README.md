@@ -22,7 +22,7 @@
   [![picpay](https://img.shields.io/badge/picpay-%23323330?style=for-the-badge&logo=picpay&logoColor=white)](https://app.picpay.com/user/alaanvv)
   ![discord](https://img.shields.io/badge/alaanvv_5148-%23323330?style=for-the-badge&logo=discord&logoColor=white)
 
-  <hr>
+  ---
 
 </div>
  
