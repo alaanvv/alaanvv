@@ -29,10 +29,6 @@
   <img src="https://img.shields.io/badge/Gmail-%23323330?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
 
-  <a href="https://instagram.com/alaanvvv">
-  <img src="https://img.shields.io/badge/Instagram-%23323330?style=for-the-badge&logo=instagram&logoColor=white">
-  <a>
-
   <a href="https://youtube.com/@alaanvv">
   <img src="https://img.shields.io/badge/YouTube-%23323330?style=for-the-badge&logo=youtube&logoColor=white">
   <a>
