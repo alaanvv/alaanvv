@@ -26,5 +26,5 @@
 
 </div>
  
- - Currently training my front-end capacities
+ - Creating a solid base in front-end before going to back-end
  - If you need help with something that I know, fell free to text me
