@@ -10,6 +10,7 @@
   ![javascript](https://img.shields.io/badge/js-%23323330?style=for-the-badge&logo=javascript&logoColor=white)
   ![python](https://img.shields.io/badge/python-%23323330?style=for-the-badge&logo=python&logoColor=white)
   ![nodedotjs](https://img.shields.io/badge/Node.js-%23323330?style=for-the-badge&logo=nodedotjs&logoColor=white)
+  ![mysql](https://img.shields.io/badge/MySql-%23323330?style=for-the-badge&logo=mysql&logoColor=white)
   ![visualstudiocode](https://img.shields.io/badge/VSCode-%23323330?style=for-the-badge&logo=visualstudiocode&logoColor=white)  
 
   [![gmail](https://img.shields.io/badge/Gmail-%23323330?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alanzerababaca@gmail.com")
