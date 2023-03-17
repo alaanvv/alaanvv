@@ -22,6 +22,5 @@
 
 </div>
  
- - Creating a solid base in front-end before going to back-end.
- - Learning some JS libraries, React.js and TS.
+ - Learning back-end.
  - If you need help with something that I know, fell free to text me.
