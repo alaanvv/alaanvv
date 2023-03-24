@@ -22,5 +22,5 @@
 
 </div>
  
- - Learning back-end.
+ - Learning express and mysql for back-end.
  - If you need help with something that I know, fell free to text me.
