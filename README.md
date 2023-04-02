@@ -1,7 +1,7 @@
 <div align="center">
   
   [<img width="80%" src="deus-da-programacao.gif">](https://app.picpay.com/user/alaanvv)  
-  ## You just summoned... THE PROGRAMMING GOD!
+  ## You just summoned... THE GOD OF PROGRAMMING!
   
   ### Knowledge
   ![HTML](https://img.shields.io/badge/html-%23323330?style=for-the-badge&logo=html5&logoColor=white)
