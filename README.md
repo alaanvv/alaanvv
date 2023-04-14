@@ -23,5 +23,5 @@
 
 </div>
  
- - Learning react.
+ - Learning react and back-end tools.
  - If you need help with something that I know, fell free to text me.
