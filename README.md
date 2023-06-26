@@ -12,6 +12,7 @@
   ![Node.js](https://img.shields.io/badge/Node.js-%23323330?style=for-the-badge&logo=nodedotjs&logoColor=white)
   
   ### Learning
+  ![React](https://img.shields.io/badge/React-%23323330?style=for-the-badge&logo=react&logoColor=white)
   ![Express](https://img.shields.io/badge/Express-%23323330?style=for-the-badge&logo=express&logoColor=white)
   ![MySQL](https://img.shields.io/badge/MySql-%23323330?style=for-the-badge&logo=mysql&logoColor=white)
   ![Java](https://img.shields.io/badge/Java-%23323330?style=for-the-badge&logo=java&logoColor=white)
@@ -29,7 +30,5 @@
 
 </div>
  
- - Learning react and back-end tools.
  - If you need help with something that I know, fell free to text me.
- - Someone help me with factorio modding pls ToT
- - Actually fucking around with gamemaker
+ - I also like to make games (only for fun)
