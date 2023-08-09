@@ -10,10 +10,10 @@
   ![JavaScript](https://img.shields.io/badge/js-%23323330?style=for-the-badge&logo=javascript&logoColor=white)
   ![Python](https://img.shields.io/badge/python-%23323330?style=for-the-badge&logo=python&logoColor=white)
   ![Node.js](https://img.shields.io/badge/Node.js-%23323330?style=for-the-badge&logo=nodedotjs&logoColor=white)
+  ![Express](https://img.shields.io/badge/Express-%23323330?style=for-the-badge&logo=express&logoColor=white)
   
   ### Learning
   ![React](https://img.shields.io/badge/React-%23323330?style=for-the-badge&logo=react&logoColor=white)
-  ![Express](https://img.shields.io/badge/Express-%23323330?style=for-the-badge&logo=express&logoColor=white)
   ![MySQL](https://img.shields.io/badge/MySql-%23323330?style=for-the-badge&logo=mysql&logoColor=white)
   ![Java](https://img.shields.io/badge/Java-%23323330?style=for-the-badge&logo=java&logoColor=white)
   ![Lua](https://img.shields.io/badge/Lua-%23323330?style=for-the-badge&logo=lua&logoColor=white)
