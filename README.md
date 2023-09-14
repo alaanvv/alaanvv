@@ -32,4 +32,4 @@
  
  - If you need help with something that I know, fell free to text me.
  - I also like to make games (only for fun)
- - I'm actually studying for a very important test so I'll not be too much active in the next two months
+ - I'm actually studying for a very important test so I'm not going to be much active in the next two months
