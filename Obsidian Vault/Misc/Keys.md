@@ -2,6 +2,7 @@
 -|-
 **Tíbia** | Z5U82-BG9EW-HWMWP-RGSYR
 **Stripe** | sdmo-axem-rqpn-cohj-vjaj
+**Bandai Namco** | B001819383929
 
 ## Steam Guard
 
