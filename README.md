@@ -14,7 +14,7 @@
   ![MySQL](https://img.shields.io/badge/MySql-%23323330?style=for-the-badge&logo=mysql&logoColor=white)
   
   ### Learning
-  ![React](https://img.shields.io/badge/React-%23323330?style=for-the-badge&logo=react&logoColor=white)
+  ![C](https://img.shields.io/badge/C-%23323330?style=for-the-badge&logo=c&logoColor=white)
   ![Java](https://img.shields.io/badge/Java-%23323330?style=for-the-badge&logo=java&logoColor=white)
   ![Lua](https://img.shields.io/badge/Lua-%23323330?style=for-the-badge&logo=lua&logoColor=white)
   ![Batch](https://img.shields.io/badge/Batch-%23323330?style=for-the-badge&logo=batch&logoColor=white)
