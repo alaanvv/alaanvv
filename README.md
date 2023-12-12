@@ -4,6 +4,7 @@
   ## Lets build something!
   
   ### Knowledge
+  ![C](https://img.shields.io/badge/C-%23323330?style=for-the-badge&logo=c&logoColor=white)
   ![HTML](https://img.shields.io/badge/html-%23323330?style=for-the-badge&logo=html5&logoColor=white)
   ![MarkDown](https://img.shields.io/badge/md-%23323330?style=for-the-badge&logo=markdown&logoColor=white)
   ![CSS](https://img.shields.io/badge/css-%23323330?style=for-the-badge&logo=css3&logoColor=white)
@@ -14,10 +15,8 @@
   ![MySQL](https://img.shields.io/badge/MySql-%23323330?style=for-the-badge&logo=mysql&logoColor=white)
   
   ### Learning
-  ![C](https://img.shields.io/badge/C-%23323330?style=for-the-badge&logo=c&logoColor=white)
-  ![Java](https://img.shields.io/badge/Java-%23323330?style=for-the-badge&logo=java&logoColor=white)
   ![Lua](https://img.shields.io/badge/Lua-%23323330?style=for-the-badge&logo=lua&logoColor=white)
-  ![Batch](https://img.shields.io/badge/Batch-%23323330?style=for-the-badge&logo=batch&logoColor=white)
+  ![Bash](https://img.shields.io/badge/Bash-%23323330?style=for-the-badge&logo=bash&logoColor=white)
   
   ### Misc
   ![VS Code](https://img.shields.io/badge/VSCode-%23323330?style=for-the-badge&logo=visualstudiocode&logoColor=white)
