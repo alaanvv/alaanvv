@@ -19,6 +19,7 @@
   ![Bash](https://img.shields.io/badge/Bash-%23323330?style=for-the-badge&logo=bash&logoColor=white)
   
   ### Misc
+  ![Neovim](https://img.shields.io/badge/Neovim-%23323330?style=for-the-badge&logo=neovim&logoColor=white)
   ![VS Code](https://img.shields.io/badge/VSCode-%23323330?style=for-the-badge&logo=visualstudiocode&logoColor=white)
   [![Gmail](https://img.shields.io/badge/Gmail-%23323330?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alanzerababaca@gmail.com")
   [![Youtube](https://img.shields.io/badge/YouTube-%23323330?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@alaanvv)
