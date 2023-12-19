@@ -13,7 +13,6 @@
   ### Misc
   ![Linux](https://img.shields.io/badge/Linux-%23323330?style=for-the-badge&logo=linux&logoColor=white)
   ![Neovim](https://img.shields.io/badge/Neovim-%23323330?style=for-the-badge&logo=neovim&logoColor=white)
-  [![Gmail](https://img.shields.io/badge/Gmail-%23323330?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alanzerababaca@gmail.com")
   ![Discord](https://img.shields.io/badge/alaanvv-%23323330?style=for-the-badge&logo=discord&logoColor=white)
 
   ---
