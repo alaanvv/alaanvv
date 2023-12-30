@@ -14,6 +14,8 @@
   ![Linux](https://img.shields.io/badge/Linux-%23323330?style=for-the-badge&logo=linux&logoColor=white)
   ![Neovim](https://img.shields.io/badge/Neovim-%23323330?style=for-the-badge&logo=neovim&logoColor=white)
   ![Discord](https://img.shields.io/badge/alaanvv-%23323330?style=for-the-badge&logo=discord&logoColor=white)
+
+  <a href="https://stackoverflow.com/users/21266942/alaanvv"> <img src="https://stackoverflow.com/users/flair/21266942.png?theme=dark" width="208" height="58"></a>
   
   </div>
 
