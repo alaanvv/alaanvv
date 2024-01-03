@@ -24,6 +24,6 @@
 </div>
  
  - If you need help with something that I know, fell free to text me.
- - I also like to make games (only for fun)
+ - Please sponsor I don't want to keep my real job ;-;
  - My contribution history green dots just got vanished because of  
    my brand new [Museum](https://www.github.com/alaanvv/Museum)
