@@ -25,5 +25,3 @@
 
  - Fast-learner
  - Please sponsor I don't want to keep my real job ;-;
- - My contribution history green dots just got vanished because of  
-   my brand new [Museum](https://www.github.com/alaanvv/Museum)
