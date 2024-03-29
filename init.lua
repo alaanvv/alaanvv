@@ -108,3 +108,17 @@ cmp.setup({
     { name = 'buffer' },
   }),
 })
+
+--
+
+local themes_to_remove = { 
+   'blue', 'darkblue', 'delek', 'elflord', 'evening', 'industry', 'koehler',
+  'lunaperche', 'morning', 'murphy', 'pablo', 'peachpuff', 'ron', 'shine', 'slate', 'sorbet','torte', 
+  'wildcharm', 'zaibatsu', 'zellner'
+}
+
+for _, theme in ipairs(themes_to_remove) do
+  local theme_file = vim.fn.stdpath('config') .. '/colors/' .. theme .. '.vim'
+      
+  vim.cmd('silent !rm ' .. theme_file)
+end
