@@ -18,10 +18,4 @@
   <a href="https://stackoverflow.com/users/21266942/alaanvv"> <img src="https://stackoverflow.com/users/flair/21266942.png?theme=dark" width="208" height="58"></a>
   
   </div>
-
-  ---
-
 </div>
-
- - Fast-learner
- - Please sponsor I don't want to keep my real job ;-;
