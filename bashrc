@@ -120,7 +120,7 @@ fi
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-export VIMRUNTIME='~/.config/nvim'
+export VIMRUNTIME='~/nvim/share/nvim/runtime'
 
 # PATH
 export PATH=$PATH:/opt/jdk-22/bin
@@ -128,8 +128,3 @@ export PATH=$PATH:/opt/jdk-22/bin
 # CD Shortcuts
 shopt -s cdable_vars
 export code=$HOME/Documents/Coding/
-
-# Aliases
-alias Nvim='clear && cd ${code}3Dinator && nvim'
-alias confignvim='nvim ~/.config/nvim/init.lua'
-alias vm='cd ${code}Verse-Music && bash run.sh'
