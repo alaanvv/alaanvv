@@ -1,3 +1,5 @@
+LSPs = { 'clangd', 'tsserver', 'lua_ls', 'html', 'cssls' }
+
 return {
   {
     'williamboman/mason.nvim',
@@ -10,7 +12,7 @@ return {
     'williamboman/mason-lspconfig.nvim',
     config = function()
       require('mason-lspconfig').setup {
-        ensure_installed = { 'clangd', 'tsserver', 'lua_ls', }
+        ensure_installed = LSPs
       }
     end
   },
@@ -19,13 +21,13 @@ return {
     'neovim/nvim-lspconfig',
     config = function()
       local lsp_config = require('lspconfig')
-      lsp_config.clangd.setup {}
-      lsp_config.tsserver.setup {}
-      lsp_config.lua_ls.setup {}
+      for _, lsp in ipairs(LSPs) do
+        lsp_config[lsp].setup {}
+      end
 
-      vim.keymap.set('n', '<C-p>',          vim.lsp.buf.hover,        {})
+      vim.keymap.set('n', '<C-p>',      vim.lsp.buf.hover,     {})
       vim.keymap.set('n', 'gd',         vim.lsp.buf.definition,   {})
-      vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, {})
+      vim.keymap.set('n', '<leader>ac', vim.lsp.buf.code_action, {})
     end
   }
 }

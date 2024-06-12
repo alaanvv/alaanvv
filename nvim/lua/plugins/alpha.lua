@@ -111,9 +111,9 @@ return {
     local fortune   = require('alpha.fortune')
 
     dashboard.section.buttons.val = {
-      dashboard.button('f', '     browse',      ':Telescope find_files <CR>'),
+      dashboard.button('b', '     browse',      ':Telescope find_files <CR>'),
       dashboard.button('r', '     recents',     ':Telescope oldfiles <CR>'),
-      dashboard.button('e', '     new-file',    ':ene <BAR> startinsert <CR>'),
+      dashboard.button('n', '     new-file',    ':ene <BAR> startinsert <CR>'),
       dashboard.button('c', '     colorscheme', ':Telescope colorscheme <CR>'),
       dashboard.button('p', '     personalize', ':lua Personalize_alpha() <CR>'),
       dashboard.button('s', '     settings',    ':e $MYVIMRC <CR>'),
@@ -125,6 +125,6 @@ return {
 
     alpha.setup(dashboard.opts)
 
-    vim.api.nvim_set_keymap('n', '<leader>a', ':Alpha <CR>', {})
+    vim.api.nvim_set_keymap('n', '<leader>al', ':Alpha <CR>', {})
   end
 }
