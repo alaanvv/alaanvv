@@ -1,0 +1,44 @@
+gui:
+  nerdFontsVersion: '3'
+
+  theme:
+    activeBorderColor:
+      - '#FBF1C7'
+      - bold
+
+    inactiveBorderColor:
+      - '#A89984'
+
+    searchingActiveBorderColor:
+      - '#FBF1C7'
+
+    optionsTextColor:
+      - '#928375'
+
+    selectedLineBgColor:
+      - '#32302F'
+
+    cherryPickedCommitFgColor:
+      - '#32302F'
+
+    cherryPickedCommitBgColor:
+      - '#32302F'
+
+    selectedRangeBgColor:
+      - '#313244'
+
+    unstagedChangesColor:
+      - '#CC241D'
+
+    defaultFgColor:
+      - '#FBF1C7'
+
+  commitLength:
+    show: false
+  showRandomTip: false
+  showCommandLog: false
+  showBottomLine: false
+  showPanelJumps: false
+  commitHashLength: 0
+  border: 'single'
+  filterMode: 'fuzzy'
