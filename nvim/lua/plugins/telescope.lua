@@ -10,8 +10,23 @@ return {
   config = function()
     local telescope = require('telescope')
     local utils     = require('telescope.utils')
+    local actions = require('telescope.actions')
+
+    local mappings = {
+      ['<C-h>'] = actions.close,
+      ['<C-j>'] = actions.move_selection_next,
+      ['<C-k>'] = actions.move_selection_previous,
+      ['<C-l>'] = actions.select_default
+    }
 
     telescope.setup({
+      defaults = {
+        mappings = {
+          i = mappings,
+          n = mappings
+        }
+      },
+
       extensions = {
         ['ui-select'] = {
           prompt_prefix   = '> ',
