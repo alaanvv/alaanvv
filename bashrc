@@ -1,3 +1,4 @@
+clear
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -120,11 +121,30 @@ fi
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-export VIMRUNTIME='~/nvim/share/nvim/runtime'
+export VIMRUNTIME='/usr/share/nvim/share/nvim/runtime'
 
 # PATH
-export PATH=$PATH:/opt/jdk-22/bin
+export PATH=$PATH:/opt/jdk-22/bin:/usr/share/lazygit:/usr/share/nvim/bin:/usr/share/renderDoc/bin
 
 # CD Shortcuts
 shopt -s cdable_vars
 export code=$HOME/Documents/Coding/
+
+# Configs
+dconf write /org/gnome/terminal/legacy/keybindings/prev-tab "'<Ctrl><Shift>j'"
+dconf write /org/gnome/terminal/legacy/keybindings/next-tab "'<Ctrl><Shift>k'"
+
+# Aliases
+alias update='sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y'
+alias fman='compgen -c | fzf | xargs man'
+alias imfzf='nvim $(fzf --border=sharp --margin=0,$((($COLUMNS-$LINES)/4)) --info=hidden --pointer=- --marker=- --tabstop=2 --color=bw --preview="head -n $(($LINES-2)) {}" --cycle --preview-window=right,60%,border-left)'
+
+XDG_DESKTOP_DIR="$HOME/desktop/"
+XDG_DOWNLOAD_DIR="$HOME/downloads/"
+XDG_TEMPLATES_DIR="$HOME/templates/"
+XDG_PUBLICSHARE_DIR="$HOME/public/"
+XDG_DOCUMENTS_DIR="$HOME/documents/"
+XDG_MUSIC_DIR="$HOME/music/"
+XDG_PICTURES_DIR="$HOME/pictures/"
+XDG_VIDEOS_DIR="$HOME/videos/"
+export LESSHISTFILE=-

@@ -2,7 +2,7 @@ vim.g.mapleader = ' '
 vim.keymap.set('', '<Space>', '<Nop>', {})
 
 -- Movement
-vim.keymap.set('n', '<C-a>',    'gg1vG$', {})
+vim.keymap.set('n', '<C-a>',    'gg0vG$', {})
 vim.keymap.set('n', '<C-Up>',   'yyP', {})
 vim.keymap.set('n', '<C-Down>', 'yyp', {})
 vim.keymap.set('n', 'J',        '<C-d>zz', {})
@@ -33,3 +33,5 @@ vim.keymap.set('n', '<leader>c', [[:lua if vim.fn.filereadable('run.sh') == 1 th
 -- Directory
 vim.keymap.set('n', '<leader>p', ':cd %:p:h <CR>', {})
 vim.keymap.set('n', '<leader>o', ':cd .. <CR>', {})
+
+vim.keymap.set('n', '<leader>h', HTTP, {})
