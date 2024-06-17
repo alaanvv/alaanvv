@@ -111,7 +111,7 @@ return {
     local fortune   = require('alpha.fortune')
 
     dashboard.section.buttons.val = {
-      dashboard.button('b', '     browse',      ':Telescope find_files <CR>'),
+      dashboard.button('e', '     explore',     ':Telescope find_files <CR>'),
       dashboard.button('r', '     recents',     ':Telescope oldfiles <CR>'),
       dashboard.button('n', '     new-file',    ':ene <BAR> startinsert <CR>'),
       dashboard.button('c', '     colorscheme', ':Telescope colorscheme <CR>'),

@@ -38,7 +38,7 @@ return {
           layout_config = {
             preview_width = 0,
             width = 50,
-            height = 10,
+            height = 25,
           }
         }
       },

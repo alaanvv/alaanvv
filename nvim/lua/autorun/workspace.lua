@@ -31,7 +31,7 @@ function Workspace()
 
   local function duplicate()
     local selected = content[vim.fn.getpos('.')[2]]
-    local input = vim.fn.input('> ')
+    local input = vim.fn.input('> ', selected)
 
     vim.fn.system('cp -r ' .. selected .. ' ' .. input)
 
@@ -40,7 +40,7 @@ function Workspace()
 
   local function rename()
     local selected = content[vim.fn.getpos('.')[2]]
-    local input = vim.fn.input('> ')
+    local input = vim.fn.input('> ', selected)
 
     vim.fn.system('mv ' .. selected .. ' ' .. input)
 
