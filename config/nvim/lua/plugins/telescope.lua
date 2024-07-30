@@ -11,12 +11,23 @@ return {
     local telescope = require('telescope')
     local utils     = require('telescope.utils')
     local actions = require('telescope.actions')
+    local state = require('telescope.actions.state')
+
+    local open_all = function(buf)
+      local picker = state.get_current_picker(buf)
+      local results = picker.finder.results
+
+      for _, entry in ipairs(results) do
+        vim.cmd('edit! ' .. entry[1])
+      end
+    end
 
     local mappings = {
       ['<C-h>'] = actions.close,
       ['<C-j>'] = actions.move_selection_next,
       ['<C-k>'] = actions.move_selection_previous,
-      ['<C-l>'] = actions.select_default
+      ['<C-l>'] = actions.select_default,
+      ['<C-a>'] = open_all
     }
 
     telescope.setup({
@@ -57,7 +68,7 @@ return {
             preview_width = 0.65,
           },
 
-          file_ignore_patterns = { 'node_modules', 'package.json', 'package%-lock.json', '^[^.]*$', '.*.ppm', 'inc', 'mod', 'db', 'obj' },
+          file_ignore_patterns = { 'node_modules', 'package.json', 'package%-lock.json', '^[^.]*$', '.*.ppm', '.*.png', '.*.jpg', '.*.jpeg', '.*.webp', 'inc', 'mod', 'db', 'obj' },
           path_display = function(_, path)
             local tail = utils.path_tail(path)
             local display_path = path:gsub('^%./', ''):gsub('/', '.'):sub(1, -#tail - 2)

@@ -1,4 +1,4 @@
-LSPs = { 'clangd', 'tsserver', 'lua_ls', 'html', 'cssls' }
+LSPs = { 'clangd', 'tsserver', 'lua_ls', 'html', 'cssls', 'tailwindcss', 'cssmodules_ls', 'css_variables', 'svelte' }
 
 return {
   {
@@ -24,6 +24,10 @@ return {
       for _, lsp in ipairs(LSPs) do
         lsp_config[lsp].setup {}
       end
+
+      lsp_config.html.setup {
+        settings = { html = { validate = false } }
+      }
 
       vim.keymap.set('n', '<C-p>',      vim.lsp.buf.hover,     {})
       vim.keymap.set('n', 'gd',         vim.lsp.buf.definition,   {})
