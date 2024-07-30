@@ -19,5 +19,5 @@ hi def link Link Underlined
 hi def link Url Underlined
 hi def link List Special
 hi Quote gui=reverse
-hi InlineCode gui=reverse
+hi def link InlineCode Comment
 hi def link Code Comment

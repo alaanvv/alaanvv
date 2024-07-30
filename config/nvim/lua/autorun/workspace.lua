@@ -7,8 +7,10 @@ function Workspace()
   ---
 
   local function update(track)
-    content = vim.split(vim.fn.system('ls --group-directories-first -p'), '\n')
+    content = vim.split(vim.fn.system('ls --group-directories-first -p -a'), '\n')
     table.remove(content)
+    table.remove(content, 1)
+    table.remove(content, 1)
 
     vim.api.nvim_buf_set_option(buf, 'modifiable', true)
     vim.api.nvim_buf_set_lines(buf, 0, -1, false, content)
