@@ -2,7 +2,8 @@ vim.g.mapleader = ' '
 vim.keymap.set('', '<Space>', '<Nop>', {})
 
 -- Movement
-vim.keymap.set('n', '<C-a>',    'gg0vG$', {})
+vim.keymap.set('n', '<C-a>',    'gg0vG$', { noremap = true })
+vim.keymap.set('v', '<C-a>',    'gg0vG$', { noremap = true })
 vim.keymap.set('n', '<C-Up>',   'yyP', {})
 vim.keymap.set('n', '<C-Down>', 'yyp', {})
 vim.keymap.set('n', 'J',        '<C-d>zz', {})
@@ -23,6 +24,11 @@ vim.keymap.set('n', '<C-b>', ':bw! <CR>', {})
 vim.keymap.set('n', '<C-s>', ':w! <CR>', {})
 
 -- Code
+
+-- Increase/Decrease
+vim.keymap.set('n', '+', '<C-a>', {})
+vim.keymap.set('n', '-', '<C-x>', {})
+vim.keymap.set('n', 'x',         '"_x', {})
 vim.keymap.set('n', '<leader>r', '*:%s///gc<Left><Left><Left>', {})
 
 -- Terminal
