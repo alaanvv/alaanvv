@@ -6,7 +6,6 @@
   <div align='center'>
     
   ![C](https://img.shields.io/badge/C-%23323330?style=for-the-badge&logo=c&logoColor=white)
-  ![Python](https://img.shields.io/badge/python-%23323330?style=for-the-badge&logo=python&logoColor=white)
   ![JavaScript](https://img.shields.io/badge/js-%23323330?style=for-the-badge&logo=javascript&logoColor=white)
   ![MySQL](https://img.shields.io/badge/MySql-%23323330?style=for-the-badge&logo=mysql&logoColor=white)
   ![Lua](https://img.shields.io/badge/Lua-%23323330?style=for-the-badge&logo=lua&logoColor=white)
@@ -14,9 +13,10 @@
   ![Linux](https://img.shields.io/badge/Linux-%23323330?style=for-the-badge&logo=linux&logoColor=white)
   ![Neovim](https://img.shields.io/badge/Neovim-%23323330?style=for-the-badge&logo=neovim&logoColor=white)
   ![Discord](https://img.shields.io/badge/alaanvv-%23323330?style=for-the-badge&logo=discord&logoColor=white)
-  ![Itchio](https://img.shields.io/badge/Itchio-%23323330?style=for-the-badge&logo=itchdotio&logoColor=white&link=https%3A%2F%2Falaanvv.itch.io%2F)
-
+  
   <a href="https://stackoverflow.com/users/21266942/alaanvv"> <img src="https://stackoverflow.com/users/flair/21266942.png?theme=dark" width="208" height="58"></a>
   
+  [![Itchio](https://img.shields.io/badge/My%20Games-%23323330?style=social&logo=itchdotio&label=Itch.io)](https://alaanvv.itch.io)
+
   </div>
 </div>
