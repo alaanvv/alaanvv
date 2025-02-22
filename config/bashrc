@@ -138,6 +138,7 @@ dconf write /org/gnome/terminal/legacy/keybindings/next-tab "'<Ctrl><Shift>k'"
 alias update='sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y'
 alias fman='compgen -c | fzf | xargs man'
 alias imfzf='nvim $(fzf --border=sharp --margin=0,$((($COLUMNS-$LINES)/4)) --info=hidden --pointer=- --marker=- --tabstop=2 --color=bw --preview="head -n $(($LINES-2)) {}" --cycle --preview-window=right,60%,border-left)'
+alias sk='~/SKlauncher/run.sh'
 
 XDG_DESKTOP_DIR="$HOME/desktop/"
 XDG_DOWNLOAD_DIR="$HOME/downloads/"
@@ -148,3 +149,5 @@ XDG_MUSIC_DIR="$HOME/music/"
 XDG_PICTURES_DIR="$HOME/pictures/"
 XDG_VIDEOS_DIR="$HOME/videos/"
 export LESSHISTFILE=-
+
+export PS1="\[\e[34m\]\w\[\e[m\]$ "

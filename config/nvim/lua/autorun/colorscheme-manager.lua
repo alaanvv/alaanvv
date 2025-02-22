@@ -1,16 +1,16 @@
 local path = vim.fn.stdpath('config') .. '/colorscheme.json'
 
-function Save_colorscheme()
+function Save_Colorscheme()
   vim.fn.system('touch ' .. path)
   vim.fn.writefile({ vim.json.encode({ colorscheme = vim.g.colors_name }) }, path)
 end
 
-function Load_colorscheme()
+function Load_Colorscheme()
   if vim.fn.filereadable(path) == 0 then return end
   vim.cmd('colorscheme ' .. vim.json.decode(vim.fn.join(vim.fn.readfile(path))).colorscheme, false)
 end
 
-function Clear_themes()
+function Clear_Themes()
   local themes_to_remove = {
     'blue', 'darkblue', 'delek', 'morning', 'ron',
     'sorbet', 'torte', 'wildcharm', 'zaibatsu'
@@ -23,5 +23,5 @@ function Clear_themes()
   end
 end
 
-vim.cmd('autocmd Colorscheme * lua Save_colorscheme()')
-Load_colorscheme()
+vim.cmd('autocmd Colorscheme * lua Save_Colorscheme()')
+Load_Colorscheme()

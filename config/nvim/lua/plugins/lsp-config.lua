@@ -21,6 +21,7 @@ return {
     'neovim/nvim-lspconfig',
     config = function()
       local lsp_config = require('lspconfig')
+
       for _, lsp in ipairs(LSPs) do
         lsp_config[lsp].setup {}
       end

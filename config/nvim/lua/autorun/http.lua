@@ -136,3 +136,5 @@ function HTTP()
     end
   end)
 end
+
+vim.keymap.set('n', '<leader>h', HTTP)
