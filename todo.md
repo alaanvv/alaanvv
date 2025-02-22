@@ -15,3 +15,4 @@
 - [ ] Remake FNAC
 - [ ] Take a look at old codes
 - [ ] Make progress in Siteinator's FAQ
+- [ ] Enhance my Neovim
