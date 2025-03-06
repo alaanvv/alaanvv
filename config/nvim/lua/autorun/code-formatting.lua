@@ -1,4 +1,4 @@
-vim.cmd('autocmd BufWritePre * lua Clear_Trailing_Space()')
+vim.cmd('autocmd BufWritePre * if &filetype != \'markdown\' | lua Clear_Trailing_Space() | endif')
 
 function Clear_Trailing_Space()
   local pos = vim.fn.getpos('.')
