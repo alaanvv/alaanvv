@@ -1,5 +1,4 @@
 vim.g.mapleader = ' '
-
 vim.keymap.set('', '<Space>', '<Nop>')
 
 -- Basic Vim Moves

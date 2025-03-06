@@ -150,4 +150,4 @@ XDG_PICTURES_DIR="$HOME/pictures/"
 XDG_VIDEOS_DIR="$HOME/videos/"
 export LESSHISTFILE=-
 
-export PS1="\[\e[34m\]\w\[\e[m\]\\$ "
+export PS1="\[\e[34m\]\w\[\e[m\]$ "
