@@ -1,3 +1,4 @@
+vim.o.updatetime    = 500
 vim.o.titlestring   = '%f'
 vim.o.title         = true
 vim.o.showmode      = false
@@ -23,7 +24,15 @@ vim.cmd('autocmd BufNewFile,BufRead *.[f|v] set filetype=')
 vim.api.nvim_create_autocmd('TermOpen', {
   pattern = "*",
   callback = function()
-    vim.api.nvim_buf_set_name(0, 'terminal')
+    local ti = 0
+    for _, buf in ipairs(vim.api.nvim_list_bufs()) do
+      if vim.api.nvim_buf_get_option(buf, 'buftype') == 'terminal' then
+        ti = ti + 1
+      end
+    end
+    ti = ti - 1
+
+    vim.api.nvim_buf_set_name(0, ti == 0 and 'terminal' or ('terminal[' .. ti .. ']'))
     vim.opt_local.relativenumber = false
     vim.opt_local.number         = false
   end
