@@ -52,3 +52,6 @@ vim.keymap.set('n', '<leader>c', [[:lua if vim.fn.filereadable('run.sh') == 1 th
 -- Directory
 vim.keymap.set('n', '<leader>p', ':cd %:p:h <CR>')
 vim.keymap.set('n', '<leader>o', ':cd .. <CR>')
+
+-- Plugin
+vim.keymap.set('n', '<leader>h', HTTP)

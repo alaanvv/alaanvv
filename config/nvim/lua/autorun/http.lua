@@ -44,8 +44,14 @@ end
 --
 
 local function call_curl(name)
-  local req  = get_reqs(name)
-  vim.cmd('terminal curl -s -X ' .. req.method .. ' -H "Content-Type: application/json" -d "' .. string.gsub(vim.fn.join(req.json), '"', '\\"') .. '" ' .. req.url)
+  local req = get_reqs(name)
+
+  local json_path = vim.fn.stdpath('data') .. '/req.json'
+  vim.fn.writefile(req.json, json_path)
+
+  local cmd = string.format([[terminal curl -s -X %s -H 'Content-Type: application/json' -H 'Authorization: %s' -d @%s %s | jq]], req.method, req.auth, json_path, req.url)
+  print(cmd)
+  vim.cmd(cmd)
 end
 
 local function set_json(name, callback)
@@ -76,7 +82,8 @@ local function run_req(name)
     call_curl(name)
   end
 
-  set_json(name, run)
+  if get_reqs(name).method == 'GET' then run()
+  else set_json(name, run) end
 end
 
 --
@@ -88,9 +95,10 @@ function HTTP_Create()
   local name   = input('Name: ')
   local url    = input('URL: ', '', urls)
   local method = input('Method: ', '', methods)
+  local auth   = input('Auth: ')
   if name == '' or url == '' or method == '' then return end
 
-  set_req(name, { url = url, method = method })
+  set_req(name, { url = url, method = method, auth = auth })
   if input('Run (y/N): ') == 'y' then run_req(name) end
 end
 
@@ -100,10 +108,11 @@ function HTTP_Edit()
     local name   = input('Name: ', choice)
     local url    = input('URL: ', req.url)
     local method = input('Method: ', req.method, methods)
+    local auth   = input('Auth: ', req.auth)
     if name == '' or url == '' or method == '' then return end
 
     set_req(choice, nil)
-    set_req(name, { url = url, method = method, json = req.json })
+    set_req(name, { url = url, method = method, json = req.json, auth = auth })
     if input('Run (y/N): ') == 'y' then run_req(name) end
   end)
 end
@@ -136,5 +145,3 @@ function HTTP()
     end
   end)
 end
-
-vim.keymap.set('n', '<leader>h', HTTP)
