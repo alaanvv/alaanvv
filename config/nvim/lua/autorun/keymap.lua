@@ -55,3 +55,4 @@ vim.keymap.set('n', '<leader>o', ':cd .. <CR>')
 
 -- Plugin
 vim.keymap.set('n', '<leader>h', HTTP)
+vim.keymap.set('n', '<leader>b', Show_Buffers)

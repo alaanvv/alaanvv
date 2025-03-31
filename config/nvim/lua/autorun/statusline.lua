@@ -24,7 +24,9 @@ function Statusline()
   if count.w ~= 0           then lsp = lsp .. '󰀦 ' .. count.w           .. ' ' end
   if count.h + count.i ~= 0 then lsp = lsp .. '󰌵 ' .. count.h + count.i .. ' ' end
 
-  return  file_display .. lsp
+  local buffer_display = ' 󰝤 ' .. vim.fn.len(vim.fn.filter(vim.fn.range(1, vim.fn.bufnr('$')), 'buflisted(v:val)')) .. ' '
+
+  return file_display .. lsp .. '%= ' .. buffer_display
 end
 
 vim.cmd('autocmd WinEnter,WinLeave,BufEnter,BufLeave * setlocal statusline=%!v:lua.Statusline()', false)
