@@ -1,3 +1,4 @@
+vim.o.updatetime    = 500
 vim.o.titlestring   = '%f'
 vim.o.title         = true
 vim.o.showmode      = false
