@@ -52,16 +52,26 @@ local function call_curl(name)
   local json_path = vim.fn.stdpath('data') .. '/req.json'
   vim.fn.writefile(req.json, json_path)
 
-  local cmd = string.format([[terminal curl -s -X %s -H 'Content-Type: application/json' -H 'Authorization: %s' -d @%s %s%s | jq]], req.method, req.auth, json_path, req.url, req.tail)
-  print(cmd)
-  vim.cmd(cmd)
+  local cmd = string.format([[curl -s -X %s -H 'Content-Type: application/json' -H 'Authorization: %s' -d @%s '%s%s' | jq]], req.method, req.auth, json_path, req.url, req.tail)
+  print(string.format('%s%s', req.url, req.tail))
+
+  local output = vim.fn.system(cmd)
+  local buf = vim.api.nvim_create_buf(false, true)
+  vim.api.nvim_set_current_buf(buf)
+  vim.api.nvim_buf_set_lines(buf, 0, -1, false, vim.split(output, '\n'))
+  vim.bo.filetype = 'json'
 end
 
 local function run_req(name)
   local req = reqs[name]
   last = name
 
-  req.tail = input('Tail: ', req.tail)
+  if req.use_tail then
+    req.tail = string.gsub(input('Tail: ', req.tail), ' ', '%20')
+  else
+    req.tail = ''
+  end
+
   if req.method == 'GET' then
     set_req(name, req)
     return call_curl(name)
@@ -94,9 +104,11 @@ function HTTP_Create()
   local method = input('Method: ', '', methods)
   if method == '' then return end
 
-  local auth   = input('Auth: ')
+  local use_tail = input('Use Tail (Y/n): ', '', methods) ~= 'n'
 
-  set_req(name, { url = url, method = method, auth = auth })
+  local auth = input('Auth: ')
+
+  set_req(name, { url = url, method = method, auth = auth, use_tail = use_tail })
   if input('Run (Y/n): ') ~= 'n' then run_req(name) end
 end
 
@@ -112,6 +124,8 @@ function HTTP_Edit()
 
     req.method = input('Method: ', req.method, methods)
     if req.method == '' then return end
+
+    req.use_tail = input('Use Tail (Y/n): ', '', methods) ~= 'n'
 
     req.auth = input('Auth: ', req.auth)
 
@@ -141,7 +155,10 @@ end
 --
 
 function HTTP()
-  vim.ui.select({ 'create', 'edit', 'delete', 'run', last and 'run-last' or '' }, { prompt = '~http~' }, function(choice)
+  local options = { 'run', 'run-last', 'create', 'edit', 'delete' }
+  if not last then table.remove(options, 2) end
+
+  vim.ui.select(options, { prompt = '~http~' }, function(choice)
     if     choice == 'create'   then HTTP_Create()
     elseif choice == 'edit'     then HTTP_Edit()
     elseif choice == 'delete'   then HTTP_Delete()
