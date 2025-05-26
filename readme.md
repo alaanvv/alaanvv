@@ -15,8 +15,9 @@
 
   <a href="https://stackoverflow.com/users/21266942/alaanvv"> <img src="https://stackoverflow.com/users/flair/21266942.png?theme=dark" width="208" height="58"></a>
 
+  [![Stars](https://img.shields.io/github/stars/alaanvv?style=social&label=Stars)](https://github.com/alaanvv?tab=repositories&q=&type=&language=&sort=stargazers)  
   [![Itchio](https://img.shields.io/badge/My%20Games-%23323330?style=social&logo=itchdotio&label=Itch.io)](https://alaanvv.itch.io)  
-  [![Discord](https://img.shields.io/badge/Text%20me-%23323330?style=social&logo=discord&label=Discord)](https://discord.com/users/691637104589013043)
+  [![Discord](https://img.shields.io/badge/Text%20me-%23323330?style=social&logo=discord&label=Discord)](https://discord.com/users/691637104589013043)  
 
   </div>
 </div>
