@@ -48,11 +48,16 @@ end
 
 local function call_curl(name)
   local req = reqs[name]
+  local cmd
 
-  local json_path = vim.fn.stdpath('data') .. '/req.json'
-  vim.fn.writefile(req.json, json_path)
+  if (req.json) then
+    local json_path = vim.fn.stdpath('data') .. '/req.json'
+    vim.fn.writefile(req.json, json_path)
+    cmd = string.format([[curl -s -X %s -H 'Content-Type: application/json' -H 'Authorization: %s' -d @%s '%s%s' | jq]], req.method, req.auth, json_path, req.url, req.tail)
+  else
+    cmd = string.format([[curl -s -X %s -H 'Authorization: %s' '%s%s' | jq]], req.method, req.auth, req.url, req.tail)
+  end
 
-  local cmd = string.format([[curl -s -X %s -H 'Content-Type: application/json' -H 'Authorization: %s' -d @%s '%s%s' | jq]], req.method, req.auth, json_path, req.url, req.tail)
   print(string.format('%s%s', req.url, req.tail))
 
   local output = vim.fn.system(cmd)
