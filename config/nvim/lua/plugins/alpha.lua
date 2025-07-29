@@ -116,6 +116,7 @@ return {
       dashboard.button('c', '     colorscheme', ':Telescope colorscheme <CR>'),
       dashboard.button('p', '     personalize', ':lua Personalize_alpha() <CR>'),
       dashboard.button('s', '     settings',    ':e $MYVIMRC <CR>'),
+      dashboard.button('t', '     todo',        ':e ~/documents/alaanvv/todo.md <CR>'),
       dashboard.button('q', '     quit',        ':qa <CR>'),
     }
 

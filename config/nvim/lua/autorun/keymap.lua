@@ -20,8 +20,9 @@ vim.keymap.set('n', 'J', ':t.<Enter>')
 vim.keymap.set('n', 'K', ':t.-1<Enter>')
 
 -- Move Line
-vim.keymap.set('n', '<A-k>', ':m .-2<Enter>')
-vim.keymap.set('n', '<A-j>', ':m .+1<Enter>')
+vim.keymap.set('n', '<A-k>',     ':m .-2<Enter>')
+vim.keymap.set('n', '<A-j>',     ':m .+1<Enter>')
+vim.keymap.set('n', '<leader>E', ':lua vim.diagnostic.goto_next()<Enter>')
 
 -- Increase/Decrease
 vim.keymap.set('n', '+', '<C-a>')

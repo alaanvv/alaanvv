@@ -68,7 +68,7 @@ return {
             preview_width = 0.65,
           },
 
-          file_ignore_patterns = { 'node_modules', 'package.json', 'package%-lock.json', '^[^.]*$', '.*.ppm', '.*.png', '.*.jpg', '.*.jpeg', '.*.webp', 'inc', 'mod', 'db', 'obj/' },
+          file_ignore_patterns = { 'node_modules', 'package.json', 'package%-lock.json', '^[^.]*$', '.*.ppm', '.*.png', '.*.jpg', '.*.jpeg', '.*.webp', 'inc', 'mod', 'db', 'obj/', 'dist' },
           path_display = function(_, path)
             local tail = utils.path_tail(path)
             local display_path = path:gsub('^%./', ''):gsub('/', '.'):sub(1, -#tail - 2)
