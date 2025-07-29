@@ -1,0 +1,1 @@
+editor.command: ["sh", "-c", "echo \"$1\" | jq . > /tmp/flow.json && nvim /tmp/flow.json", "--", "{}"]
