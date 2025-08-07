@@ -1,0 +1,28 @@
+window {
+  border: 1px solid #928374;
+  background-color: #282828;
+  color: #ebdbb2;
+}
+
+#input {
+  background-color: #1d2021;
+  color: #ebdbb2;
+  border: none;
+}
+
+#inner-box, #outer-box, #text, #input, image {
+  margin: 5px;
+}
+
+#entry:selected {
+  background-color: #1d2021;
+  outline: none;
+}
+
+#input:focus {
+  box-shadow: none;
+}
+
+#input > image.right {
+  -gtk-icon-transform:scaleX(0);
+}

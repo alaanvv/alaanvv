@@ -1,0 +1,47 @@
+{
+  "output": "eDP-1",
+  "height": 20,
+  "spacing": 0,
+  "modules-center": [ "clock" ],
+  "modules-right": [
+    "network",
+    "pulseaudio",
+    "battery",
+    "tray"
+  ],
+  "clock": {
+    "tooltip-format": "<tt><big>{calendar}</big></tt>",
+    "format": "{:%d - %H:%M}"
+  },
+  "battery": {
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{icon}",
+    "tooltip": true,
+    "format-icons": ["", "", "", "", ""]
+  },
+  "network": {
+    "format-wifi": "",
+    "format-ethernet": "",
+    "format-disconnected": "⚠",
+    "tooltip-format": "{essid}"
+  },
+  "pulseaudio": {
+    "format": "{icon}",
+    "format-bluetooth": "{icon}",
+    "format-bluetooth-muted": " {icon}",
+    "format-muted": " ",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": ["", "", ""]
+    },
+    "on-click": "pavucontrol"
+  }
+}
