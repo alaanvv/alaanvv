@@ -1,0 +1,13 @@
+cp -n ~/.bashrc config/bashrc 2>/dev/null
+cp -n ~/.digital.cfg config/digital.cfg 2>/dev/null
+cp -n ~/.config/user-dirs.dirs config/user-dirs.dirs 2>/dev/null
+cp -rn ~/.config/lazygit/ config/ 2>/dev/null
+cp -rn ~/.config/nvim/ config/ 2>/dev/null
+cp -rn ~/.config/mitmproxy/ config/ 2>/dev/null
+cp -rn ~/.config/dunst/ config/ 2>/dev/null
+cp -rn ~/.config/gtk-3.0/ config/ 2>/dev/null
+cp -rn ~/.config/gtk-4.0/ config/ 2>/dev/null
+cp -rn ~/.config/hypr/ config/ 2>/dev/null
+cp -rn ~/.config/kitty/ config/ 2>/dev/null
+cp -rn ~/.config/waybar/ config/ 2>/dev/null
+cp -rn ~/.config/wofi/ config/ 2>/dev/null

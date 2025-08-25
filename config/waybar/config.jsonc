@@ -1,47 +1,55 @@
 {
   "output": "eDP-1",
-  "height": 20,
-  "spacing": 0,
+  "height": 33,
+  "spacing": 8,
+
   "modules-center": [ "clock" ],
-  "modules-right": [
-    "network",
-    "pulseaudio",
-    "battery",
-    "tray"
-  ],
+  "modules-right": [ "network", "pulseaudio", "backlight", "battery", "bluetooth", "tray" ],
+
   "clock": {
-    "tooltip-format": "<tt><big>{calendar}</big></tt>",
-    "format": "{:%d - %H:%M}"
+    "format": "{:%H:%M}",
+    "tooltip": false
   },
+
+  "network": {
+    "format": "[   {signalStrength}% ]",
+    "format-disconnected": "[ 󰀦  OFFLINE ]",
+    "tooltip-format": "{essid}",
+    "tooltip-format-disconnected": "Disconnected",
+    "on-click": "kitty -e iwctl"
+  },
+
+  "pulseaudio": {
+    "format": "[ {icon}  {volume}% ]",
+    "format-muted": "[   MUT ]",
+    "format-icons": { "default": ["", "", ""] },
+    "on-click": "pavucontrol"
+  },
+
+  "backlight": {
+    "format": "[ {icon} {percent}% ]",
+    "format-icons": ["󰃜", "󰃛", "󰃚"],
+    "tooltip": false,
+    "on-click": "nwg-look"
+  },
+
   "battery": {
     "states": {
       "warning": 30,
       "critical": 15
     },
-    "format": "{icon}",
+    "format": "[ {icon}  {capacity}% ]",
+    "format-charging": "[  {capacity}% ]",
     "tooltip": true,
-    "format-icons": ["", "", "", "", ""]
+    "format-icons": ["", "", "", "", ""],
+    "on-click": "kitty -e htop"
   },
-  "network": {
-    "format-wifi": "",
-    "format-ethernet": "",
-    "format-disconnected": "⚠",
-    "tooltip-format": "{essid}"
-  },
-  "pulseaudio": {
-    "format": "{icon}",
-    "format-bluetooth": "{icon}",
-    "format-bluetooth-muted": " {icon}",
-    "format-muted": " ",
-    "format-icons": {
-      "headphone": "",
-      "hands-free": "",
-      "headset": "",
-      "phone": "",
-      "portable": "",
-      "car": "",
-      "default": ["", "", ""]
-    },
-    "on-click": "pavucontrol"
+
+  "bluetooth": {
+    "format-connected-battery": "[ 󰂯 {device_alias} ({device_battery_percentage}%) ]",
+    "format-connected": "[ {icon} {device_alias} ]",
+    "format-on": "[ 󰂯 ON ]",
+    "format": "[ 󰂲 OFF ]",
+    "on-click": "kitty -e bluetoothctl"
   }
 }

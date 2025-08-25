@@ -1,0 +1,33 @@
+[global]
+
+idle_threshold = 120
+show_age_threshold = -1
+indicate_hidden = no
+sticky_history = yes
+notification_limit = 1
+timeout = 5
+
+markup = yes
+word_wrap = yes
+hide_duplicate_count = true
+indicate_hidden = false
+font = "Adawaita Sans Regular, Noto Color Emoji 12"
+format = "<span foreground='#ebdbb2'><b>%s</b></span>\n%b"
+show_indicators = false
+icon_corner_radius = 0
+min_icon_size = 40
+max_icon_size = 40
+
+monitor = eDP-1
+follow = none
+origin = top-center
+width = (200, 300)
+frame_width = 0
+padding = 12
+horizontal_padding = 12
+corner_radius = 0
+alignment = left
+offset = (0, 20)
+
+background = "#1d2021"
+foreground = "#ebdbb2"
