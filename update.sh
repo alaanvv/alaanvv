@@ -1,4 +1,6 @@
+mkdir config/.themes/
 cp -n ~/.bashrc config/bashrc 2>/dev/null
+cp -n ~/.gtkrc-2.0 config/gtkrc-2.0 2>/dev/null
 cp -n ~/.digital.cfg config/digital.cfg 2>/dev/null
 cp -n ~/.config/user-dirs.dirs config/user-dirs.dirs 2>/dev/null
 cp -rn ~/.config/lazygit/ config/ 2>/dev/null
@@ -11,3 +13,5 @@ cp -rn ~/.config/hypr/ config/ 2>/dev/null
 cp -rn ~/.config/kitty/ config/ 2>/dev/null
 cp -rn ~/.config/waybar/ config/ 2>/dev/null
 cp -rn ~/.config/wofi/ config/ 2>/dev/null
+cp -rn /etc/ly/ config/ 2>/dev/null
+cp -rn ~/.themes/ config/.themes/ 2>/dev/null
