@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ $# -eq 1 ]; then
+    owner="alaanvv"
+    repo="$1"
+elif [ $# -eq 2 ]; then
+    owner="$1"
+    repo="$2"
+else
+    echo "Usage: $0 <repo> or $0 <owner> <repo>"
+    exit 1
+fi
+
+git clone "https://github.com/$owner/$repo.git"

@@ -48,7 +48,7 @@ vim.keymap.set('n', '<leader>t', ':terminal<Enter>a')
 vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>')
 
 -- Run
-vim.keymap.set('n', '<leader>c', [[:lua if vim.fn.filereadable('run.sh') == 1 then vim.cmd('silent !gnome-terminal --tab -- bash -c "bash run.sh"') else print('No `run.sh`') end <CR>]], { silent = true })
+vim.keymap.set('n', '<leader>c', [[:lua if vim.fn.filereadable('run.sh') == 1 then vim.cmd('silent !kitty bash -c "bash run.sh"') else print('No `run.sh`') end <CR>]], { silent = true })
 
 -- Directory
 vim.keymap.set('n', '<leader>p', ':cd %:p:h <CR>')

@@ -1,0 +1,12 @@
+font_family             FiraMono Nerd Font
+font_size               12.0
+include                 gruvbox.conf
+cursor_trail            1
+cursor_trail_decay      0.1 0.2
+mouse_hide_wait	-3.0
+map                     ctrl+shift+k next_tab
+map                     ctrl+shift+j previous_tab
+map                     ctrl+shift+t new_tab_with_cwd
+map                     ctrl+shift+b close_tab
+paste_actions           no-op
+strip_trailing_spaces   smart

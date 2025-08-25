@@ -1,11 +1,9 @@
 * {
-  font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+  font-family: "FiraMono Nerd Font", Roboto, Helvetica, Arial, sans-serif;
+  font-weight: bolder;
   font-size: 12px;
 
-  background-color: rgba(0, 0, 0, 0.3);
-  color: #fff;
-}
-
-#clock, #battery, #network, #pulseaudio, #tray {
-  padding: 8px;
+  background-color: #1d2021;
+  color: #ebdbb2;
+  padding: 3px;
 }

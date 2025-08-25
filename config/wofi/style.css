@@ -1,28 +1,22 @@
 window {
   border: 1px solid #928374;
-  background-color: #282828;
-  color: #ebdbb2;
-}
-
-#input {
   background-color: #1d2021;
   color: #ebdbb2;
-  border: none;
 }
 
-#inner-box, #outer-box, #text, #input, image {
-  margin: 5px;
+#entry:selected { 
+  outline: none;  
+  background-color: transparent; 
+  color: #fe8019;
+  font-weight: bold;
 }
 
-#entry:selected {
-  background-color: #1d2021;
-  outline: none;
-}
+#input { background-color: transparent; margin-left: 3px; }
 
-#input:focus {
-  box-shadow: none;
-}
+#input > image.right { -gtk-icon-transform:scaleX(0); }
 
-#input > image.right {
-  -gtk-icon-transform:scaleX(0);
-}
+#inner-box, #outer-box, #text,  image { margin: 5px; }
+
+#input > image.left { margin-right: 15px; }
+
+#input:focus { box-shadow: none; }

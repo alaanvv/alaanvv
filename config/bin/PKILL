@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# Lista processos com PID e comando
+pid=$(ps -eo pid,comm --sort=-%mem \
+  | fzf --prompt="Select process to kill: " \
+  | awk '{print $1}')
+
+# Se nenhum selecionado, sai
+[ -z "$pid" ] && exit 1
+
+# Mata o processo
+sudo kill -9 "$pid"
+echo "Killed process $pid"
