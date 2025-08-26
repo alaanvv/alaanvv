@@ -14,4 +14,4 @@ cp -rn ~/.config/waybar/ config/ 2>/dev/null
 cp -rn ~/.config/wofi/ config/ 2>/dev/null
 cp -rn /etc/ly/ config/ 2>/dev/null
 cp -rn ~/.themes/ config/.themes/ 2>/dev/null
-cp -rn ~/.local/bin config/bin/ 2>/dev/null
+cp -rn ~/.local/bin/ config/bin/ 2>/dev/null
