@@ -1,0 +1,15 @@
+#!/bin/sh
+
+tmpfile=$(mktemp /tmp/tmp_sh.XXXXXX)
+
+if [ ! -t 0 ]; then
+    cat > "$tmpfile"
+fi
+
+nvim "$tmpfile"
+
+if [ -f "$tmpfile" ]; then
+    chmod +x "$tmpfile"
+    "$tmpfile"
+    rm -f "$tmpfile"
+fi

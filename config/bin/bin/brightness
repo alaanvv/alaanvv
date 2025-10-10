@@ -1,0 +1,31 @@
+#!/bin/bash
+
+BL="/sys/class/backlight/intel_backlight"
+STEP=266
+MAX=26600
+MIN=266
+
+get() { echo $(( $(<"$BL/brightness") / STEP )); }
+
+update() {
+    local new="$1"
+    local cur
+    cur=$(<"$BL/brightness")
+    (( cur != new )) && { echo "$new" > "$BL/brightness"; pkill -RTMIN+10 waybar; }
+}
+
+case "$1" in
+    increase)
+        NEW=$(( $(<"$BL/brightness") + $2 * STEP ))
+        (( NEW > MAX )) && NEW=$MAX
+        update "$NEW"
+        ;;
+    decrease)
+        NEW=$(( $(<"$BL/brightness") - $2 * STEP ))
+        (( NEW < MIN )) && NEW=$MIN
+        update "$NEW"
+        ;;
+esac
+
+P=$(get)
+echo "{\"percentage\": $P}"

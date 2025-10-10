@@ -1,0 +1,15 @@
+#!/bin/sh
+
+dir="${XDG_PICTURES_DIR:-$HOME/media/screenshots}"
+mkdir -p "$dir"
+file="$dir/$(date +%Y%m%d_%H%M%S)_screenshot.png"
+
+if [ "$1" = "window" ]; then
+  geom="$(hyprctl -j activewindow | jq -r '"\(.at[0]),\(.at[1]) \(.size[0])x\(.size[1])"')"
+else
+  geom="$(slurp -b 282828cc -B 282828cc -c d65d0e -o)" || exit 0
+fi
+
+grim ${geom:+-g "$geom"} "$file"
+notify-send -i "$file" "Screenshot saved" "Press CTRL+V to paste it"
+wl-copy < "$file"
