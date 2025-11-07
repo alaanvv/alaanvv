@@ -1,7 +1,7 @@
 <div align="center">
 
   [<img width="80%" src="https://media.tenor.com/4RHvCS5ixRgAAAAC/team-fortress2-engineer-tf2.gif">](https://app.picpay.com/user/alaanvv)
-  ## Lets build something!
+  ## Building something...
 
   <div align='center'>
 
