@@ -20,6 +20,7 @@ vim.o.backup        = false
 
 vim.cmd('autocmd BufNewFile,BufRead *.[c|h] set filetype=cpp')
 vim.cmd('autocmd BufNewFile,BufRead *.[f|v] set filetype=')
+vim.cmd('autocmd VimLeavePre * mksession! ' .. vim.fn.stdpath('config') .. '/session.vim')
 
 vim.api.nvim_create_autocmd('TermOpen', {
   pattern = "*",

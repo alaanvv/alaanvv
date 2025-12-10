@@ -3,6 +3,7 @@ vim.keymap.set('', '<Space>', '<Nop>')
 
 -- Basic Vim Moves
 vim.keymap.set('n', 'x', '"_x')
+vim.keymap.set('i', 'jj', '<Esc>')
 
 -- Autocomplete
 vim.keymap.set('i', '<C-g>', '<C-x><C-o>')
@@ -35,6 +36,8 @@ vim.keymap.set('n', '<leader>z', 'exists("`z") ? "`z" : "mz"', { expr = true })
 -- Buffer
 vim.keymap.set('n', '<C-j>', ':bprev <CR>')
 vim.keymap.set('n', '<C-k>', ':bnext <CR>')
+vim.keymap.set('n', '<C-A-j>', ':cprev <CR>')
+vim.keymap.set('n', '<C-A-k>', ':cnext <CR>')
 vim.keymap.set('n', '<C-b>', ':bw! <CR>')
 vim.keymap.set('n', '<C-s>', ':w! <CR>')
 
@@ -48,7 +51,7 @@ vim.keymap.set('n', '<leader>t', ':terminal<Enter>a')
 vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>')
 
 -- Run
-vim.keymap.set('n', '<leader>c', [[:lua if vim.fn.filereadable('run.sh') == 1 then vim.cmd('silent !kitty bash -c "bash run.sh"') else print('No `run.sh`') end <CR>]], { silent = true })
+vim.keymap.set('n', '<leader>c', [[:lua if vim.fn.filereadable('run.sh') == 1 then vim.cmd('!bash run.sh') else print('No `run.sh`') end <CR>]], { silent = true })
 
 -- Directory
 vim.keymap.set('n', '<leader>p', ':cd %:p:h <CR>')

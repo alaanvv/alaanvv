@@ -13,24 +13,24 @@ mkdir -p "$cache"
 if [ -f "$index" ]; then
 	thumbnail="$(jq -r ". \"$movie\"" <"$index")"
 	if [[ "$thumbnail" != "null" ]]; then
-		if [[ ! -f "$cache/$thumbnail" ]]; then
-			exit 1
+		if [[ -f "$cache/$thumbnail" ]]; then
+			echo "$cache/$thumbnail"
+			exit 0
 		fi
-		echo "$cache/$thumbnail"
-		exit 0
 	fi
 fi
 
 thumbnail="$(uuidgen).jpg"
 
-if ! ffmpegthumbnailer -i "$movie" -o "$cache/$thumbnail" -s 0 2>/dev/null; then
+if ! ffmpeg -y -ss 00:00:01 -i "$movie" -vframes 1 -q:v 2 "$cache/$thumbnail" >/dev/null 2>&1; then
 	exit 1
 fi
 
 if [[ ! -f "$index" ]]; then
 	echo "{\"$movie\": \"$thumbnail\"}" >"$index"
+else
+	jq --arg movie "$movie" --arg thumb "$thumbnail" '. + {($movie): $thumb}' "$index" >"$index.tmp" && mv "$index.tmp" "$index"
 fi
-json="$(jq -r --arg "$movie" "$thumbnail" ". + {\"$movie\": \"$thumbnail\"}" <"$index")"
-echo "$json" >"$index"
 
 echo "$cache/$thumbnail"
+
