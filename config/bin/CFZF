@@ -1,0 +1,13 @@
+#!/bin/bash
+
+command -v fzf >/dev/null || exit 1
+command -v curl >/dev/null || exit 1
+
+repo=$(curl -s "https://api.github.com/users/alaanvv/repos?per_page=100" \
+  | grep '"full_name"' \
+  | sed -E 's/.*"([^"]+)".*/\1/' \
+  | fzf)
+
+[ -z "$repo" ] && exit 0
+
+git clone "https://github.com/$repo.git"
