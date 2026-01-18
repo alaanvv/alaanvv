@@ -141,7 +141,7 @@ function Personalize_alpha()
   end)
 end
 
-local path = vim.fn.stdpath('config') .. '/alpha.json'
+local path = vim.fn.stdpath('config') .. '/data/alpha.json'
 
 function Save_personalization(choices)
   vim.fn.system('touch ' .. path)
