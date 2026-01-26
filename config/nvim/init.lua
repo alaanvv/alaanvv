@@ -1,4 +1,5 @@
 -- General
+vim.cmd.colorscheme('gruvbox')
 vim.o.title         = true
 vim.o.titlestring   = '%t'
 vim.o.cursorline    = true
