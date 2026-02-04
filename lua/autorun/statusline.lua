@@ -1,5 +1,5 @@
 function Statusline()
-  local filepath = vim.fn.fnamemodify(vim.fn.expand '%', ':~:.')
+  local filepath = vim.fn.expand('%:t')
   local file_display = ''
 
   if filepath == '~ ' then
