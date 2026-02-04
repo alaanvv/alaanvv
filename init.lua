@@ -1,7 +1,7 @@
 -- General
 vim.cmd.colorscheme('retrobox')
 vim.o.title           = true
-vim.o.titlestring     = '%t'
+vim.o.titlestring     = 'nvim'
 vim.o.cursorline      = true
 vim.o.number          = true
 vim.o.numberwidth     = 1
@@ -36,4 +36,3 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 require('lazy').setup('plugins', { change_detection = { notify = false } })
-vim.g.lazyvim_json = vim.fn.stdpath('config') .. '/data/lazy-lock.json'
