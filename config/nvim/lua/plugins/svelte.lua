@@ -1,3 +1,1 @@
-return {
-  'leafOfTree/vim-svelte-plugin'
-}
+return { 'leafOfTree/vim-svelte-plugin' }
