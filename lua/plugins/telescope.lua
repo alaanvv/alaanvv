@@ -23,19 +23,21 @@ return {
 
     telescope.setup({
       defaults = {
-        mappings        = {
+        mappings              = {
           i = mappings,
           n = mappings
         },
 
-        layout_config   = {
+        layout_config         = {
           width         = 0.9,
           preview_width = 0.6
         },
 
-        prompt_prefix   = '> ',
-        selection_caret = '  ',
-        prompt_title    = ''
+        dynamic_preview_title = true,
+        prompt_prefix         = '> ',
+        selection_caret       = '  ',
+        prompt_title          = '',
+        path_display          = { 'tail' },
       },
 
       pickers = {
