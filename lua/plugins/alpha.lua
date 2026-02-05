@@ -186,13 +186,13 @@ return {
       dashboard.button('q', '     quit', ':qa <CR>')
     }
 
-    local cfg
+    local cfg = {}
 
     if vim.fn.filereadable(path) ~= 0 then
       cfg = vim.json.decode(vim.fn.join(vim.fn.readfile(path)))
     end
 
-    dashboard.section.header.val = ascii[cfg.ascii] or ''
+    dashboard.section.header.val = ascii[cfg.ascii] or 'neovim'
     dashboard.section.footer.val = cfg.footer and fortune({ fortune_list = footers[cfg.footer] }) or {}
 
     alpha.setup(dashboard.opts)
