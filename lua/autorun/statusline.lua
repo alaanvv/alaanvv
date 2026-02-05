@@ -25,4 +25,5 @@ function Statusline()
   return file_display .. lsp
 end
 
-vim.cmd('autocmd WinEnter,WinLeave,BufEnter,BufLeave * setlocal statusline=%!v:lua.Statusline()', false)
+vim.opt.laststatus = 3
+vim.o.statusline   = "%!v:lua.Statusline()"
