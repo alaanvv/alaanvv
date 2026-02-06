@@ -1,5 +1,3 @@
-vim.g.mapleader = ' '
-
 -- Basic Vim Moves
 vim.keymap.set('n', 'x', '"_x')
 vim.keymap.set('v', 'p', '"_dP')

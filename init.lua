@@ -1,5 +1,6 @@
 -- General
 vim.cmd.colorscheme('retrobox')
+vim.g.mapleader       = ' '
 vim.o.title           = true
 vim.o.titlestring     = 'nvim'
 vim.o.cursorline      = true
