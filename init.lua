@@ -2,6 +2,7 @@
 vim.cmd.colorscheme('retrobox')
 Alpha_header          = 'bonfire'
 Alpha_footer          = 'soulsborne'
+Actions               = {}
 vim.g.mapleader       = ' '
 vim.o.title           = true
 vim.o.titlestring     = 'nvim'
@@ -26,7 +27,6 @@ vim.o.splitright      = true
 vim.o.splitbelow      = true
 vim.opt.conceallevel  = 2
 vim.opt.concealcursor = ''
-_G.Actions            = {}
 
 -- Autorun
 for _, file in ipairs(vim.fn.glob(vim.fn.stdpath('config') .. '/lua/autorun/*.lua', false, true)) do
