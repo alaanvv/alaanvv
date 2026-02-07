@@ -1,5 +1,7 @@
 -- General
 vim.cmd.colorscheme('retrobox')
+Alpha_header          = 'bonfire'
+Alpha_footer          = 'soulsborne'
 vim.g.mapleader       = ' '
 vim.o.title           = true
 vim.o.titlestring     = 'nvim'

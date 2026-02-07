@@ -10,6 +10,21 @@ local ascii = {
     [[ \/_/\/_/\/____/\/___/  \/__/    \/_/\/_/\/_/\/_/]],
   },
 
+  hydra = {
+    [[                                   ]],
+    [[   ⣴⣶⣤⡤⠦⣤⣀⣤⠆     ⣈⣭⣿⣶⣿⣦⣼⣆          ]],
+    [[    ⠉⠻⢿⣿⠿⣿⣿⣶⣦⠤⠄⡠⢾⣿⣿⡿⠋⠉⠉⠻⣿⣿⡛⣦       ]],
+    [[          ⠈⢿⣿⣟⠦ ⣾⣿⣿⣷    ⠻⠿⢿⣿⣧⣄     ]],
+    [[           ⣸⣿⣿⢧ ⢻⠻⣿⣿⣷⣄⣀⠄⠢⣀⡀⠈⠙⠿⠄    ]],
+    [[          ⢠⣿⣿⣿⠈    ⣻⣿⣿⣿⣿⣿⣿⣿⣛⣳⣤⣀⣀   ]],
+    [[   ⢠⣧⣶⣥⡤⢄ ⣸⣿⣿⠘  ⢀⣴⣿⣿⡿⠛⣿⣿⣧⠈⢿⠿⠟⠛⠻⠿⠄  ]],
+    [[  ⣰⣿⣿⠛⠻⣿⣿⡦⢹⣿⣷   ⢊⣿⣿⡏  ⢸⣿⣿⡇ ⢀⣠⣄⣾⠄   ]],
+    [[ ⣠⣿⠿⠛ ⢀⣿⣿⣷⠘⢿⣿⣦⡀ ⢸⢿⣿⣿⣄ ⣸⣿⣿⡇⣪⣿⡿⠿⣿⣷⡄  ]],
+    [[ ⠙⠃   ⣼⣿⡟  ⠈⠻⣿⣿⣦⣌⡇⠻⣿⣿⣷⣿⣿⣿ ⣿⣿⡇ ⠛⠻⢷⣄ ]],
+    [[      ⢻⣿⣿⣄   ⠈⠻⣿⣿⣿⣷⣿⣿⣿⣿⣿⡟ ⠫⢿⣿⡆     ]],
+    [[       ⠻⣿⣿⣿⣿⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⡟⢀⣀⣤⣾⡿⠃     ]],
+  },
+
   bonfire = {
     [[⠀⠀⠀⠀⠀⠐⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀]],
     [[⠀⠀⠀⠀⠀⠀⠈⣾⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀]],
@@ -31,21 +46,6 @@ local ascii = {
     [[⢰⣹⠭⠽⢧⠅⢂⣳⠛⢿⡽⣿⢿⡿⢟⣟⡻⢾⣿⣿⡤⢴⣶⡃]],
   },
 
-  hydra = {
-    [[                                   ]],
-    [[   ⣴⣶⣤⡤⠦⣤⣀⣤⠆     ⣈⣭⣿⣶⣿⣦⣼⣆          ]],
-    [[    ⠉⠻⢿⣿⠿⣿⣿⣶⣦⠤⠄⡠⢾⣿⣿⡿⠋⠉⠉⠻⣿⣿⡛⣦       ]],
-    [[          ⠈⢿⣿⣟⠦ ⣾⣿⣿⣷    ⠻⠿⢿⣿⣧⣄     ]],
-    [[           ⣸⣿⣿⢧ ⢻⠻⣿⣿⣷⣄⣀⠄⠢⣀⡀⠈⠙⠿⠄    ]],
-    [[          ⢠⣿⣿⣿⠈    ⣻⣿⣿⣿⣿⣿⣿⣿⣛⣳⣤⣀⣀   ]],
-    [[   ⢠⣧⣶⣥⡤⢄ ⣸⣿⣿⠘  ⢀⣴⣿⣿⡿⠛⣿⣿⣧⠈⢿⠿⠟⠛⠻⠿⠄  ]],
-    [[  ⣰⣿⣿⠛⠻⣿⣿⡦⢹⣿⣷   ⢊⣿⣿⡏  ⢸⣿⣿⡇ ⢀⣠⣄⣾⠄   ]],
-    [[ ⣠⣿⠿⠛ ⢀⣿⣿⣷⠘⢿⣿⣦⡀ ⢸⢿⣿⣿⣄ ⣸⣿⣿⡇⣪⣿⡿⠿⣿⣷⡄  ]],
-    [[ ⠙⠃   ⣼⣿⡟  ⠈⠻⣿⣿⣦⣌⡇⠻⣿⣿⣷⣿⣿⣿ ⣿⣿⡇ ⠛⠻⢷⣄ ]],
-    [[      ⢻⣿⣿⣄   ⠈⠻⣿⣿⣿⣷⣿⣿⣿⣿⣿⡟ ⠫⢿⣿⡆     ]],
-    [[       ⠻⣿⣿⣿⣿⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⡟⢀⣀⣤⣾⡿⠃     ]],
-  },
-
   saturn = {
     [[                                                ]],
     [[                                          _.oo. ]],
@@ -64,38 +64,6 @@ local ascii = {
     [[ YMMMUP^                                        ]],
     [[  ^^                                            ]],
     [[                                                ]],
-  },
-
-  computer = {
-    [[                       .,,uod8B8bou,,.                             ]],
-    [[              ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.                    ]],
-    [[         ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||                   ]],
-    [[         !...:!TVBBBRPFT||||||||||!!^^""'   ||||                   ]],
-    [[         !.......:!?|||||!!^^""'            ||||                   ]],
-    [[         !.........||||                     ||||                   ]],
-    [[         !.........||||  ##                 ||||                   ]],
-    [[         !.........||||                     ||||                   ]],
-    [[         !.........||||                     ||||                   ]],
-    [[         !.........||||                     ||||                   ]],
-    [[         !.........||||                     ||||                   ]],
-    [[         `.........||||                    ,||||                   ]],
-    [[          .;.......||||               _.-!!|||||                   ]],
-    [[   .,uodWBBBBb.....||||       _.-!!|||||||||!:'                    ]],
-    [[!YBBBBBBBBBBBBBBb..!|||:..-!!|||||||!iof68BBBBBb....               ]],
-    [[!..YBBBBBBBBBBBBBBb!!||||||||!iof68BBBBBBRPFT?!::   `.             ]],
-    [[!....YBBBBBBBBBBBBBBbaaitf68BBBBBBRPFT?!:::::::::     `.           ]],
-    [[!......YBBBBBBBBBBBBBBBBBBBRPFT?!::::::;:!^"`;:::       `.         ]],
-    [[!........YBBBBBBBBBBRPFT?!::::::::::^''...::::::;         iBBbo.   ]],
-    [[`..........YBRPFT?!::::::::::::::::::::::::;iof68bo.      WBBBBbo. ]],
-    [[  `..........:::::::::::::::::::::::;iof688888888888b.     `YBBBP^']],
-    [[    `........::::::::::::::::;iof688888888888888888888b.     `     ]],
-    [[      `......:::::::::;iof688888888888888888888888888888b.         ]],
-    [[        `....:::;iof688888888888888888888888888888888899fT!        ]],
-    [[          `..::!8888888888888888888888888888888899fT|!^"'          ]],
-    [[            `' !!988888888888888888888888899fT|!^"'                ]],
-    [[                `!!8888888888888888899fT|!^"'                      ]],
-    [[                  `!988888888899fT|!^"'                            ]],
-    [[                    `!9899fT|!^"'                                  ]]
   }
 }
 
@@ -138,37 +106,6 @@ local footers = {
   }
 }
 
-function Personalize_alpha()
-  local dashboard      = require('alpha.themes.dashboard')
-  local fortune        = require('alpha.fortune')
-
-  local ascii_options  = {}
-  local footer_options = {}
-  for key, _ in pairs(ascii) do table.insert(ascii_options, key) end
-  for key, _ in pairs(footers) do table.insert(footer_options, key) end
-
-  vim.ui.select(ascii_options, { prompt = '~ascii~' }, function(ascii_choice)
-    ascii_choice = ascii_choice or ''
-    dashboard.section.header.val = ascii[ascii_choice] or ''
-    vim.cmd('AlphaRedraw')
-
-    vim.ui.select(footer_options, { prompt = '~footer~' }, function(footer_choice)
-      footer_choice = footer_choice or ''
-      dashboard.section.footer.val = footer_choice and fortune({ fortune_list = footers[footer_choice] }) or {}
-      vim.cmd('AlphaRedraw')
-
-      Save_personalization({ ascii = ascii_choice, footer = footer_choice })
-    end)
-  end)
-end
-
-local path = vim.fn.stdpath('config') .. '/data/alpha.json'
-
-function Save_personalization(choices)
-  vim.fn.system('touch ' .. path)
-  vim.fn.writefile({ vim.json.encode({ ascii = choices.ascii, footer = choices.footer }) }, path)
-end
-
 return {
   'goolord/alpha-nvim',
 
@@ -179,21 +116,13 @@ return {
 
     dashboard.section.buttons.val = {
       dashboard.button('l', '     last session', ':source ' .. vim.fn.stdpath('config') .. '/data/session.vim <CR>'),
-      dashboard.button('c', '     colorscheme', ':Telescope colorscheme <CR>'),
-      dashboard.button('p', '     personalize', ':lua Personalize_alpha() <CR>'),
       dashboard.button('s', '     settings', ':e $MYVIMRC <CR>'),
       dashboard.button('n', '     notes', ':e ~/documents/notes.md <CR>'),
       dashboard.button('q', '     quit', ':qa <CR>')
     }
 
-    local cfg = {}
-
-    if vim.fn.filereadable(path) ~= 0 then
-      cfg = vim.json.decode(vim.fn.join(vim.fn.readfile(path)))
-    end
-
-    dashboard.section.header.val = ascii[cfg.ascii] or 'neovim'
-    dashboard.section.footer.val = cfg.footer and fortune({ fortune_list = footers[cfg.footer] }) or {}
+    dashboard.section.header.val = ascii[Alpha_header] or 'neovim'
+    if (Alpha_footer) then dashboard.section.footer.val = fortune({ fortune_list = footers[Alpha_footer] }) end
 
     alpha.setup(dashboard.opts)
   end
