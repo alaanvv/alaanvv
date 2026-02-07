@@ -120,8 +120,8 @@ return {
       dashboard.button('q', '     quit', ':qa <CR>')
     }
 
-    dashboard.section.header.val = ascii[Alpha_header] or 'neovim'
-    if (Alpha_footer) then dashboard.section.footer.val = fortune({ fortune_list = footers[Alpha_footer] }) end
+    dashboard.section.header.val = ascii[Alpha.header] or 'neovim'
+    if (Alpha.footer) then dashboard.section.footer.val = fortune({ fortune_list = footers[Alpha.footer] }) end
 
     alpha.setup(dashboard.opts)
   end
