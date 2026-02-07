@@ -115,7 +115,6 @@ return {
     local fortune                 = require('alpha.fortune')
 
     dashboard.section.buttons.val = {
-      dashboard.button('l', '     last session', ':source ' .. vim.fn.stdpath('config') .. '/data/session.vim <CR>'),
       dashboard.button('s', '     settings', ':e $MYVIMRC <CR>'),
       dashboard.button('n', '     notes', ':e ~/documents/notes.md <CR>'),
       dashboard.button('q', '     quit', ':qa <CR>')
