@@ -1,27 +1,27 @@
 vim.cmd.colorscheme('retrobox')
-Alpha                 = { header = 'bonfire', footer = 'soulsborne' }
-Actions               = {}
-vim.g.mapleader       = ' '
-vim.opt.clipboard     = 'unnamedplus'
-vim.o.signcolumn      = 'no'
-vim.opt.fillchars     = 'eob: '
-vim.o.cursorline      = true
-vim.o.showmode        = false
-vim.o.wrap            = false
-vim.o.splitright      = true
-vim.o.splitbelow      = true
-vim.o.writebackup     = false
-vim.o.swapfile        = false
-vim.o.expandtab       = true
-vim.o.number          = true
-vim.o.numberwidth     = 1
-vim.o.scrolloff       = 8
-vim.o.sidescrolloff   = 8
-vim.o.shiftwidth      = 2
-vim.o.tabstop         = 2
-vim.o.updatetime      = 500
-vim.opt.conceallevel  = 2
-vim.opt.concealcursor = ''
+Alpha               = { header = 'bonfire', footer = 'soulsborne' }
+Actions             = {}
+vim.g.mapleader     = ' '
+vim.o.clipboard     = 'unnamedplus'
+vim.o.signcolumn    = 'no'
+vim.o.fillchars     = 'eob: '
+vim.o.cursorline    = true
+vim.o.showmode      = false
+vim.o.wrap          = false
+vim.o.splitright    = true
+vim.o.splitbelow    = true
+vim.o.swapfile      = false
+vim.o.undofile      = true
+vim.o.expandtab     = true
+vim.o.number        = true
+vim.o.numberwidth   = 1
+vim.o.scrolloff     = 8
+vim.o.sidescrolloff = 8
+vim.o.shiftwidth    = 2
+vim.o.tabstop       = 2
+vim.o.updatetime    = 500
+vim.o.conceallevel  = 2
+vim.o.concealcursor = ''
 
 for _, file in ipairs(vim.fn.glob(vim.fn.stdpath('config') .. '/lua/autorun/*.lua', false, true)) do
   require(file:match('.*/(autorun/.+)%.lua$'))
