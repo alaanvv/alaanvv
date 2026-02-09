@@ -7,3 +7,13 @@ function Actions_pick()
     end
   end)
 end
+
+-- General actions
+
+Actions['Use tabs'] = function()
+  vim.o.expandtab = false
+end
+
+Actions['Use spaces'] = function()
+  vim.o.expandtab = true
+end
