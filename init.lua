@@ -1,5 +1,4 @@
 vim.cmd.colorscheme('retrobox')
-Alpha               = { header = 'bonfire', footer = 'soulsborne' }
 Actions             = {}
 vim.g.mapleader     = ' '
 vim.o.clipboard     = 'unnamedplus'
