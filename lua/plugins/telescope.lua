@@ -12,20 +12,9 @@ return {
 
   config = function()
     local telescope = require('telescope')
-    local actions   = require('telescope.actions')
-
-    local mappings  = {
-      ['<C-h>'] = actions.close,
-      ['<C-l>'] = actions.select_default
-    }
 
     telescope.setup({
       defaults = {
-        mappings              = {
-          i = mappings,
-          n = mappings
-        },
-
         layout_config         = {
           width         = 0.9,
           preview_width = 0.6
