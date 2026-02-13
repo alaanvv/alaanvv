@@ -6,6 +6,7 @@ vim.o.signcolumn    = 'no'
 vim.o.fillchars     = 'eob: '
 vim.o.cursorline    = true
 vim.o.showmode      = false
+vim.o.listchars     = 'tab:··,diff: ,fold: '
 vim.o.wrap          = false
 vim.o.splitright    = true
 vim.o.splitbelow    = true
@@ -22,7 +23,6 @@ vim.o.tabstop       = 2
 vim.o.updatetime    = 500
 vim.o.conceallevel  = 2
 vim.o.concealcursor = ''
-vim.o.listchars     = 'tab:··'
 
 for _, file in ipairs(vim.fn.glob(vim.fn.stdpath('config') .. '/lua/autorun/*.lua', false, true)) do
   require(file:match('.*/(autorun/.+)%.lua$'))
