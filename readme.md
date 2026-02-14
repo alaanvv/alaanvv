@@ -18,7 +18,7 @@
   [![Stars](https://img.shields.io/github/stars/alaanvv?style=social&label=Stars)](https://github.com/alaanvv?tab=repositories&q=&type=&language=&sort=stargazers)  
   [![Itchio](https://img.shields.io/badge/My%20Games-%23323330?style=social&logo=itchdotio&label=Itch.io)](https://alaanvv.itch.io)  
   [![Discord](https://img.shields.io/badge/Text%20me-%23323330?style=social&logo=discord&label=Discord)](https://discord.com/users/691637104589013043)  
-  [![Youtube](https://img.shields.io/badge/My%20Channel-%23323330?style=social&logo=youtube&label=Youtube)]([https://alaanvv.itch.io](https://www.youtube.com/@alaanvv))  
+  [![Youtube](https://img.shields.io/badge/My%20Channel-%23323330?style=social&logo=youtube&label=Youtube)](https://www.youtube.com/@alaanvv)  
 
   </div>
 </div>
