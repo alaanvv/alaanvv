@@ -1,3 +1,5 @@
+os:
+  editPreset: 'nvim'
 gui:
   theme:
     activeBorderColor:
@@ -27,9 +29,8 @@ gui:
   showRootItemInFileTree: false
   showBottomLine: false
   showPanelJumps: false
+  showCommandLog: true
   commitHashLength: 0
   nerdFontsVersion: '3'
   filterMode: 'fuzzy'
   border: 'single'
-os:
-  editPreset: 'nvim'
