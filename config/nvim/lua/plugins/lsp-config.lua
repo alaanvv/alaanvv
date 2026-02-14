@@ -1,4 +1,4 @@
-LSPs = { 'clangd', 'tsserver', 'lua_ls', 'html', 'cssls', 'tailwindcss', 'cssmodules_ls', 'css_variables', 'svelte' }
+LSPs = { 'pyright', 'ast_grep', 'clangd', 'tsserver', 'lua_ls', 'html', 'cssls', 'tailwindcss', 'cssmodules_ls', 'css_variables', 'svelte' }
 
 return {
   {
