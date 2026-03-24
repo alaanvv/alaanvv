@@ -7,7 +7,10 @@ return {
   config = function()
     require('gitsigns').setup({
       numhl = true,
-      current_line_blame = true
+      current_line_blame = true,
+      current_line_blame_opts = {
+        ignore_whitespace = true
+      }
     })
   end
 }
