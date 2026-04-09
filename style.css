@@ -1,0 +1,52 @@
+@define-color foreground #E8E8E5;
+@define-color background #000000;
+@define-color special    #D2A2CD;
+@define-color off        #828282;
+
+#waybar, tooltip {
+  font-family: "FiraMono Nerd Font";
+  font-weight: bolder;
+  font-size: 12px;
+
+  background-color: @background;
+  color: @foreground;
+}
+
+#waybar > box {
+  padding: 6px 9px 0px 9px;
+}
+
+tooltip * {
+  color: @foreground;
+  padding: 2px;
+}
+
+#workspaces * {
+  border: 0;
+  padding: 0;
+}
+
+#workspaces button * {
+  background-color: @background;
+}
+
+#workspaces button {
+  transition: none;
+  margin-right: 13px;
+}
+
+#workspaces button           { color: @off; }
+#workspaces button.active    { color: @foreground; }
+#workspaces button.special * { color: @special; }
+
+#pulseaudio.muted            { color: @off; }
+
+#network.disconnected        { color: @off; }
+
+#bluetooth.connected         { color: @special; }
+#bluetooth.disabled          { color: @off; }
+
+#battery.crit                { color: @off; }
+#battery.charging            { color: @special; }
+
+.off                         { color: @off; }
