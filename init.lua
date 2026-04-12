@@ -12,6 +12,7 @@ vim.o.cursorline    = true
 vim.o.swapfile      = false
 vim.o.undofile      = true
 vim.o.number        = true
+vim.o.expandtab     = true
 vim.o.numberwidth   = 1
 vim.o.scrolloff     = 8
 vim.o.sidescrolloff = 8
