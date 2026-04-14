@@ -1,0 +1,23 @@
+[global]
+
+idle_threshold       = 120
+notification_limit   = 3
+timeout              = 3
+
+origin               = top-center
+offset               = (0, 20)
+width                = (200, 300)
+gap_size             = 10
+
+background           = "#1d2021"
+foreground           = "#ebdbb2"
+frame_width          = 3
+frame_color          = "#928374"
+font                 = "FiraMono Nerd Font" 12
+
+min_icon_size        = 40
+max_icon_size        = 40
+
+[urgency_critical]
+
+frame_color          = "#cc241d"
