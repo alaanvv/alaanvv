@@ -10,6 +10,10 @@ end
 
 -- General actions
 
+Actions['Run program'] = function()
+  vim.cmd('terminal sh run.sh')
+end
+
 Actions['Use tabs'] = function()
   vim.o.expandtab = false
 end
