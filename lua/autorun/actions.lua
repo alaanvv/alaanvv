@@ -21,3 +21,13 @@ end
 Actions['Use spaces'] = function()
   vim.o.expandtab = true
 end
+
+Actions['Wrap'] = function()
+  vim.o.wrap = true
+  vim.o.linebreak = true
+end
+
+Actions['No wrap'] = function()
+  vim.o.wrap = false
+  vim.o.linebreak = false
+end
